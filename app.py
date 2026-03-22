@@ -8,7 +8,7 @@ from qdrant_client.http import models as rest
 from sentence_transformers import SentenceTransformer
 
 COLLECTION_NAME = "topics"
-MODEL_NAME = "BAAI/bge-small-en-v1.5"
+MODEL_NAME = "all-MiniLM-L6-v2"
 QDRANT_URL = os.getenv("QDRANT_URL", "http://localhost:6333")
 QDRANT_API_KEY = os.getenv("QDRANT_API_KEY")
 
