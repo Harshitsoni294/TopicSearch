@@ -1,0 +1,17 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Environments
+.env
+.venv/
+venv/
+qdrant-env/
+
+# IDE/editor
+.vscode/
+.idea/
+
+# OS
+.DS_Store
